@@ -1,0 +1,13 @@
+{
+  "app": [
+    {
+      "id": 1,
+      "name": "YEN$CONVERSION",
+      "description": "日本円での値段をドルなどの外貨に直したらいくらになるのかを計算できます。\n為替相場は毎日更新。",
+      "image": "",
+      "movie": "https://youtu.be/j_n4g2ew1OE?si=BVc-9J2sRescN5K1",
+      "qiita": "https://qiita.com/syab-syab/items/c14ab0b6f2cb358ca520https://qiita.com/syab-syab/items/c14ab0b6f2cb358ca520",
+      "zenn": "https://zenn.dev/syab_syab/articles/1be480aacec116"
+    }
+  ]
+}

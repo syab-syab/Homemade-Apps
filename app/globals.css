@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,45 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+/* ヘッダーのタイトル */
+.site-title {
+  font-size: 6.7rem;
+}
+
+/* ヘッダーのサブタイトル */
+.sub-title {
+  font-size: 3.9rem;
+}
+
+/* メインの部分 */
+.main-section {
+  padding: 0 10rem 0;
+}
+
+.app-data {
+  font-size: 2.5rem;
+  font-weight: bold;
+  width: auto;
+  border: 0.5rem dashed black;
+}
+
+
+/* フッターのコピーライト */
+.copy {
+  font-size: 2rem;
+  font-weight: bold;
 }
