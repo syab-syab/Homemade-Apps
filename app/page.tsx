@@ -1,19 +1,15 @@
 // import Image from 'next/image'
 // import styles from './page.module.css'
 import data from './data/app-data.json'
+import Image from "next/image";
+import ImagePath from '../app/img/yen-dollar.png'
+import Link from 'next/link';
 
 // トップページ
-type appType = {
-  id: number,
-  name: string,
-  description: string,
-  image: string,
-  movie: string,
-  qiita: string,
-  zenn: string
-}
 
 const appData = data["app"]
+
+// const imgPath = '../app/img/yen-dollar.png'
 
 export default function Home() {
   return (
@@ -31,8 +27,15 @@ export default function Home() {
               return (
                 // divにした方が良いかも
                 <p className='app-data' key={app.id}>
+                  <span className='app-image'>
+                    {/* 画像が表示できない */}
+                    <img src={`../app/img/${app.image}`} alt="image" />
+                  </span>
+                  
                   {/* アプリ名を個別ページへのリンクにする */}
-                  {app.name}
+                  <Link href={`/homemade/${app.id}`}>
+                    {app.abbreviation}
+                  </Link>
                 </p>
               )
             })

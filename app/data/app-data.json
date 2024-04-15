@@ -1,13 +1,64 @@
 {
   "app": [
     {
-      "id": 1,
+      "id": 5,
       "name": "YEN$CONVERSION",
+      "abbreviation": "YEN$CONVERSION",
       "description": "日本円での値段をドルなどの外貨に直したらいくらになるのかを計算できます。\n為替相場は毎日更新。",
-      "image": "",
+      "url": "https://unique-sprinkles-003d9b.netlify.app/",
+      "image": "yen-dollar.png",
+      "tech": ["React.js", "GCP(Google Cloud Platform)", "Supabese", "Python"],
       "movie": "https://youtu.be/j_n4g2ew1OE?si=BVc-9J2sRescN5K1",
-      "qiita": "https://qiita.com/syab-syab/items/c14ab0b6f2cb358ca520https://qiita.com/syab-syab/items/c14ab0b6f2cb358ca520",
+      "qiita": "https://qiita.com/syab-syab/items/c14ab0b6f2cb358ca520",
       "zenn": "https://zenn.dev/syab_syab/articles/1be480aacec116"
+    },
+    {
+      "id": 4,
+      "name": "Tasks Maketh Man",
+      "abbreviation": "Tasks Maketh Man",
+      "description": "シンプルなToDoリストです。\n期限を設定できます。",
+      "url": "https://marvelous-druid-da3e8a.netlify.app/",
+      "image": "tmk-list.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "https://youtu.be/eHEtwa8_BC0?si=VMBpAyTQiKiwxuph",
+      "qiita": "https://qiita.com/syab-syab/items/8f0c979df606c1aad241",
+      "zenn": "https://zenn.dev/syab_syab/articles/fb3f6cecc537b2"
+    },
+    {
+      "id": 3,
+      "name": "Diatonic Cheat",
+      "abbreviation": "Diatonic Cheat",
+      "description": "音楽をやっている人向けのアプリです。\n好きなキーのダイアトニックコードを表示させてください。",
+      "url": "https://syab-syab.github.io/diatonicReact/",
+      "image": "diatonic-cheat.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "https://youtu.be/4qX3U8r6u-o?si=G7AECS7lljJ5he_b",
+      "qiita": "https://qiita.com/syab-syab/items/b9961ef9727dbc2cc987",
+      "zenn": "https://zenn.dev/syab_syab/articles/9e4c77cc4376f3"
+    },
+    {
+      "id": 2,
+      "name": "Event Schedule Image Generator",
+      "abbreviation": "ESIG",
+      "description": "予定の詳細をSNSやチャットアプリで共有しやすい画像を作ります。\n遊び・仕事・イベント告知などで使ってください。",
+      "url": "https://syab-syab.github.io/reactImageMaker/",
+      "image": "esig.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "https://youtu.be/oJdwm63Np8w?si=WUnj7OfsfBjYN4jt",
+      "qiita": "https://qiita.com/syab-syab/items/db1ad427d1d317f04f3d",
+      "zenn": "https://zenn.dev/syab_syab/articles/7395e4270266db"
+    },
+    {
+      "id": 1,
+      "name": "オノまとめ",
+      "abbreviation": "オノまとめ",
+      "description": "様々な効果音を鳴らすことができます。\n悪用厳禁。",
+      "url": "https://syab-syab.github.io/reactSoundEffectBtn/",
+      "image": "onomatome.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "https://youtu.be/oH_t3K_2rJE?si=9-IjrMTcqXbnyrDO",
+      "qiita": "https://qiita.com/syab-syab/items/568760669f65b046a955",
+      "zenn": "https://zenn.dev/syab_syab/articles/846d3e13a70566"
     }
   ]
 }

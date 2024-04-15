@@ -140,6 +140,17 @@ body {
   border: 0.5rem dashed black;
 }
 
+.app-image {
+  border: black 0.5rem black;
+  /* width: 0.5rem;
+  height: 0.5rem; */
+}
+
+.app-image > img {
+  width: 5rem;
+  height: 5rem;
+}
+
 
 /* フッターのコピーライト */
 .copy {
