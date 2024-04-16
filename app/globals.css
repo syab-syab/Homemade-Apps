@@ -128,6 +128,11 @@ body {
   font-size: 3.9rem;
 }
 
+/* サブのサブ */
+.sub-sub {
+  font-size: 2rem;
+}
+
 /* メインの部分 */
 .main-section {
   padding: 0 10rem 0;

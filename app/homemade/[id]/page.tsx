@@ -3,6 +3,7 @@ import data from "../../data/app-data.json"
 import Link from 'next/link';
 import { YouTubeEmbed } from '@next/third-parties/google'
 import styles from "@/app/homemade/[id]/page.module.css"
+import Footer from '@/app/components/footer'
 
 const page = ({ params }: { params: { id: number } }) => {
   // 型をappTypeに合わせられない
@@ -61,7 +62,7 @@ const page = ({ params }: { params: { id: number } }) => {
         </div>
       </main>
 
-
+      <Footer />
     </>
   )
 }

@@ -7,10 +7,7 @@
 }
 
 .videoSection {
-  /* width: 100px; */
-  /* height: 100px; */
-  /* text-align: center; */
-  /* margin: 0 auto; */
+display: block;
 }
 
 .main {

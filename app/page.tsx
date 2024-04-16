@@ -4,12 +4,14 @@ import data from './data/app-data.json'
 import Image from "next/image";
 import ImagePath from '../app/img/yen-dollar.png'
 import Link from 'next/link';
+import { appType } from '@/app/types/All.types'
+import Footer from '@/app/components/footer'
 
 // トップページ
 
-const appData = data["app"]
+const appData: Array<appType> = data["app"]
 
-// const imgPath = '../app/img/yen-dollar.png'
+const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
 
 export default function Home() {
   return (
@@ -17,7 +19,8 @@ export default function Home() {
       {/* ヘッダー */}
       <header>
         <h1 className="site-title">スイスアーミーアプリ</h1>
-        <p className="sub-title">便利なツール系アプリ</p>        
+        <p className="sub-title">便利なツール系アプリ</p>
+        <p className='sub-sub'>随時追加</p>
       </header>
       {/* メイン */}
       <main className="main">
@@ -29,7 +32,7 @@ export default function Home() {
                 <p className='app-data' key={app.id}>
                   <span className='app-image'>
                     {/* 画像が表示できない */}
-                    <img src={`../app/img/${app.image}`} alt="image" />
+                    <img src={ imgPath + app.image} alt="image" />
                   </span>
                   
                   {/* アプリ名を個別ページへのリンクにする */}
@@ -44,9 +47,7 @@ export default function Home() {
 
       </main>
       {/* フッター */}
-      <footer>
-        <span className="copy">©スイスアーミーアプリ</span>
-      </footer>
+      <Footer />
     </>
   )
 }
