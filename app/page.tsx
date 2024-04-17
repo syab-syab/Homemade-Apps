@@ -28,18 +28,20 @@ export default function Home() {
           {
             appData.map(app => {
               return (
-                // divにした方が良いかも
-                <p className='app-data' key={app.id}>
+                // imgを左にして
+                // Linkを右に配置する
+                // imgがボーダーからはみ出ないようにする
+                <div className='app-data' key={app.id}>
                   <span className='app-image'>
-                    {/* 画像が表示できない */}
+                    {/* 画像のリンクを外部リンクに頼らないようにする */}
                     <img src={ imgPath + app.image} alt="image" />
                   </span>
                   
                   {/* アプリ名を個別ページへのリンクにする */}
-                  <Link href={`/homemade/${app.id}`}>
+                  <Link className='link-style app-name' href={`/homemade/${app.id}`}>
                     {app.abbreviation}
                   </Link>
-                </p>
+                </div>
               )
             })
           }          

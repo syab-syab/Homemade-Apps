@@ -13,3 +13,21 @@ display: block;
 .main {
   font-size: 2.5rem;
 }
+
+.appDescription {
+  font-weight: bold;
+}
+
+.links {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* 無駄があるので後で整理する */
+.externalLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: 0.5rem dashed black;
+  margin: 1rem;
+}

@@ -116,6 +116,15 @@ html {
 
 body {
   text-align: center;
+  /* 一応全体の文字色を設定しておく */
+  color: black;
+}
+
+/* ページ全体のリンクのスタイル */
+.link-style {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /* ヘッダーのタイトル */
@@ -130,25 +139,33 @@ body {
 
 /* サブのサブ */
 .sub-sub {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  /* font-weight: bold; */
 }
 
 /* メインの部分 */
 .main-section {
-  padding: 0 10rem 0;
+  /* padding: 0 10rem 0; */
 }
 
 .app-data {
   font-size: 2.5rem;
   font-weight: bold;
   width: auto;
+  /* height: 6rem; */
+  height: auto;
   border: 0.5rem dashed black;
+  margin-bottom: 2rem;
 }
 
 .app-image {
   border: black 0.5rem black;
   /* width: 0.5rem;
   height: 0.5rem; */
+  float: left;
+  width: 6rem;
+  height: 6rem;
+  vertical-align: middle;
 }
 
 .app-image > img {
@@ -156,9 +173,24 @@ body {
   height: 5rem;
 }
 
+.app-name {
+  /* float: left; */
+  vertical-align: middle;
+}
 
 /* フッターのコピーライト */
 .copy {
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* フッターのリンク */
+.footer-links {
+  font-size: 2.5rem;
+}
+
+.footer-external-link {
+  border: 0.5rem dashed black;
+  margin: 1rem;
+  /* font-weight: bold; */
 }
