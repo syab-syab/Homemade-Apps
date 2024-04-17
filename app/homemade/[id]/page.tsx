@@ -6,8 +6,9 @@ import styles from "@/app/homemade/[id]/page.module.css"
 import Footer from '@/app/components/footer'
 
 const page = ({ params }: { params: { id: number } }) => {
-  // 型をappTypeに合わせられない
-  const appData: any = data["app"].find(d => d.id == params.id)
+  // anyを型にするのはよくない感じがするから
+  // if文とかで分岐させてデフォルトで返すappTypeのデータを用意しておく
+  const appData: appType | any = data["app"].find(d => d.id == params.id)
   const techs: Array<string> = appData.tech
 
   console.log(appData.description)
