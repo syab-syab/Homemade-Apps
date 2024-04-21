@@ -148,34 +148,35 @@ body {
   /* padding: 0 10rem 0; */
 }
 
-.app-data {
+.app-bar {
   font-size: 2.5rem;
   font-weight: bold;
-  width: auto;
-  /* height: 6rem; */
+  /* width: auto; */
+  height: 6rem;
   height: auto;
   border: 0.5rem dashed black;
   margin-bottom: 2rem;
+  display: flex;
 }
 
+/* app-image直下のimgタグのheightをapp-barクラスの基準のheightにする */
 .app-image {
-  border: black 0.5rem black;
-  /* width: 0.5rem;
-  height: 0.5rem; */
-  float: left;
-  width: 6rem;
+  content: "";
+  border-right: black 0.5rem dashed;
+
   height: 6rem;
-  vertical-align: middle;
 }
+
 
 .app-image > img {
-  width: 5rem;
-  height: 5rem;
+  height: 6rem;
 }
 
 .app-name {
-  /* float: left; */
-  vertical-align: middle;
+  text-align: center;
+  /* float: right; */
+  width: auto;
+  display: inline;
 }
 
 /* フッターのコピーライト */

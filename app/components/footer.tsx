@@ -16,7 +16,7 @@ const footer = () => {
           href="https://www.youtube.com/channel/UCy1-DE9tWCWgQE82JYJGfLA"
           target="_blank"
         >
-          Youtubeチャンネル
+          Youtube
         </Link>
       </div>
       <span style={{  fontSize: "2rem", "fontWeight": "bold" }}>©スイスアーミーアプリ</span>

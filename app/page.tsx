@@ -31,16 +31,22 @@ export default function Home() {
                 // imgを左にして
                 // Linkを右に配置する
                 // imgがボーダーからはみ出ないようにする
-                <div className='app-data' key={app.id}>
-                  <span className='app-image'>
+                <div className='app-bar' key={app.id}>
+                  <div className='app-image'>
                     {/* 画像のリンクを外部リンクに頼らないようにする */}
                     <img src={ imgPath + app.image} alt="image" />
-                  </span>
+                  </div>
                   
                   {/* アプリ名を個別ページへのリンクにする */}
-                  <Link className='link-style app-name' href={`/homemade/${app.id}`}>
-                    {app.abbreviation}
-                  </Link>
+                  {/* <div className='app-name'> */}
+                    <Link className='
+                      link-style
+                      app-name
+                    ' href={`/homemade/${app.id}`}>
+                      {app.abbreviation}
+                    </Link>                    
+                  {/* </div> */}
+
                 </div>
               )
             })
