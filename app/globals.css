@@ -127,25 +127,84 @@ body {
   font-weight: bold;
 }
 
+
+/* ヘッダー全体 */
+.sa-header {
+  margin-bottom: 2rem;
+}
+
 /* ヘッダーのタイトル */
 .site-title {
   font-size: 6.7rem;
+  margin: 0;
 }
 
 /* ヘッダーのサブタイトル */
 .sub-title {
   font-size: 3.9rem;
+  margin: 0;
 }
 
 /* サブのサブ */
 .sub-sub {
   font-size: 2.5rem;
+  margin: 0;
   /* font-weight: bold; */
+}
+
+/* ヘッダーの各メディアクエリ */
+/* font-sizeはパーセントで設定した方がいいかも */
+@media (max-width: 687px) {
+  .site-title {
+    font-size: 5.7rem;
+  }
+  .sub-title {
+    font-size: 2.9rem;
+  }
+}
+
+@media (max-width: 587px) {
+  .site-title {
+    font-size: 4rem;
+  }
+  .sub-title {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-title {
+    font-size: 3rem;
+  }
+
+  .sub-sub {
+    font-size: 1.5rem;
+  }
 }
 
 /* メインの部分 */
 .main-section {
-  /* padding: 0 10rem 0; */
+  padding: 0 30rem 0;
+}
+
+/* メインのメディアクエリ */
+
+@media (max-width: 1286px) {
+  .main-section {
+    padding: 0 1rem 0;
+  }
+}
+
+@media (max-width: 687px) {
+
+}
+
+@media (max-width: 587px) {
+
+}
+
+@media (max-width: 420px) {
+
 }
 
 .app-bar {
@@ -177,6 +236,7 @@ body {
   /* float: right; */
   width: auto;
   display: inline;
+  margin: auto;
 }
 
 /* フッターのコピーライト */

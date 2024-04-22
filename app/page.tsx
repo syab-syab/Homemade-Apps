@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <>
       {/* ヘッダー */}
-      <header>
+      <header className='sa-header'>
         <h1 className="site-title">スイスアーミーアプリ</h1>
         <p className="sub-title">便利なツール系アプリ</p>
         <p className='sub-sub'>随時追加</p>

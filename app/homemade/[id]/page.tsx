@@ -11,35 +11,41 @@ const page = ({ params }: { params: { id: number } }) => {
   const appData: appType | any = data["app"].find(d => d.id == params.id)
   const techs: Array<string> = appData.tech
 
-  console.log(appData.description)
+  // console.log(appData.description)
 
-  console.log(params.id)
+  // console.log(params.id)
   return (
     <>
-      <header>
+      <header className={styles.header}>
         <h1 className={styles.appName}>
           {appData.name}
         </h1>
-        <p className={styles.useTech}>
-          使用した技術...
+        <div className={styles.useTech}>
+          <p>
+            使用した技術...            
+          </p>
           {/* 配列の要素をタグで囲う */}
           {/* { appData.tech } */}
-          {
-            techs.map(t => {
-              return (
-                <span
-                  key={t}
-                  style={{
-                    marginRight: "1rem",
-                    border: "0.5rem dashed black"
-                  }}
-                  >
-                    {t}
-                  </span>
-              )
-            })
-          }
-        </p>        
+          <div className={styles.techsContainer}>
+            {
+              techs.map(t => {
+                return (
+                  <div
+                    className={styles.tech}
+                    key={t}
+                    style={{
+                      marginRight: "1rem",
+                      border: "0.5rem dashed black"
+                    }}
+                    >
+                      {t}
+                    </div>
+                )
+              })
+            }            
+          </div>
+
+        </div>        
       </header>
 
       <main className={styles.main}>

@@ -1,17 +1,68 @@
+/* ヘッダー部分 */
+.header {
+  margin-bottom: 4rem;
+}
+
 .appName {
   font-size: 6.7rem;
+  margin: 0;
 }
 
 .useTech {
   font-size: 3rem;
+  font-weight: bold;
+}
+
+.techsContainer {
+  overflow: auto;
+  vertical-align: top;
+}
+
+.tech {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+/* ヘッダー部分のメディアクエリ */
+@media (max-width: 687px) {
+  .appName {
+    font-size: 5.7rem;
+  }
+  .useTech {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 587px) {
+  .appName {
+    font-size: 4rem;
+  }
+  .useTech {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .appName {
+    font-size: 3rem;
+  }
+  /* .sub-sub {
+    font-size: 1.5rem;
+  } */
+  .header {
+    margin-bottom: 2rem;
+  }
+}
+
+
+/* メイン部分 */
+
+.main {
+  font-size: 2.5rem;
 }
 
 .videoSection {
 display: block;
-}
-
-.main {
-  font-size: 2.5rem;
 }
 
 .appDescription {
@@ -19,9 +70,25 @@ display: block;
 }
 
 .links {
-  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
+
+/* メイン部分のメディアクエリ */
+@media (max-width: 687px) {
+
+}
+
+@media (max-width: 587px) {
+
+}
+
+@media (max-width: 420px) {
+  .main {
+    font-size: 1.5rem;
+  }
+}
+
+
 
 /* 無駄があるので後で整理する */
 .externalLink {
