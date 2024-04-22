@@ -4,20 +4,24 @@ const footer = () => {
   return (
     <footer>
       <div className="footer-links">
-        <Link
-          className="footer-external-link link-style"
-          href="https://twitter.com/nomeatnolifeno1"
-          target="_blank"
-        >
-          X(旧Twitter)
-        </Link>
-        <Link
-          className="footer-external-link link-style"
-          href="https://www.youtube.com/channel/UCy1-DE9tWCWgQE82JYJGfLA"
-          target="_blank"
-        >
-          Youtube
-        </Link>
+        <div className="footer-external-link-container">
+          <Link
+            className="footer-external-link link-style"
+            href="https://twitter.com/nomeatnolifeno1"
+            target="_blank"
+          >
+            X(旧Twitter)
+          </Link>
+        </div>
+        <div className="footer-external-link-container">
+          <Link
+            className="footer-external-link link-style"
+            href="https://www.youtube.com/channel/UCy1-DE9tWCWgQE82JYJGfLA"
+            target="_blank"
+          >
+            Youtube
+          </Link>          
+        </div>
       </div>
       <span style={{  fontSize: "2rem", "fontWeight": "bold" }}>©スイスアーミーアプリ</span>
     </footer>

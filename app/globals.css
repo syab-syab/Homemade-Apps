@@ -152,13 +152,14 @@ body {
 .sub-title {
   font-size: 3.9rem;
   margin: 0;
+  font-weight: bold;
 }
 
 /* サブのサブ */
 .sub-sub {
   font-size: 2.5rem;
   margin: 0;
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 /* ヘッダーの各メディアクエリ */
@@ -219,18 +220,20 @@ body {
 .app-bar {
   font-size: 2.5rem;
   font-weight: bold;
-  /* width: auto; */
   height: 6rem;
   height: auto;
-  border: 0.5rem dashed black;
+  
+  border: dotted black;
+
   margin-bottom: 2rem;
   display: flex;
 }
 
 /* app-image直下のimgタグのheightをapp-barクラスの基準のheightにする */
 .app-image {
-  /* content: ""; */
-  border-right: black 0.5rem dashed;
+
+  border: dotted black;
+
   height: 6rem;
 }
 
@@ -239,13 +242,20 @@ body {
   height: 6rem;
 }
 
+.app-name-container {
+  width: 100%;
+  border: dotted black;
+  /* order: 1; */
+}
+
+.app-bar:nth-child(2n) > .app-name-container {
+  order: -1;
+}
+
 .app-name {
   text-align: center;
-  /* float: right; */
-  width: auto;
-  /* display: inline; */
   margin: auto;
-  display: block;
+  vertical-align: middle;
 }
 
 /* フッターのコピーライト */
@@ -259,8 +269,29 @@ body {
   font-size: 2.5rem;
 }
 
+/* フッターのリンクのボーダーは別のスタイルにしたほうがわかりやすいかも */
+.footer-external-link-container {
+  border: dotted black;
+  margin-bottom: 1rem;
+}
+
 .footer-external-link {
-  border: 0.5rem dashed black;
-  margin: 1rem;
-  /* font-weight: bold; */
+  border: dotted black;
+  display: block;
+  width: 100%;
+}
+
+/* フッターのメディアクエリ */
+@media (max-width: 687px) {
+
+}
+
+@media (max-width: 587px) {
+
+}
+
+@media (max-width: 420px) {
+  .footer-links {
+    font-size: 1.5rem;
+  }
 }

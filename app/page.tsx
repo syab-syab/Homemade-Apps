@@ -44,14 +44,14 @@ export default function Home() {
                   </div>
                   
                   {/* アプリ名を個別ページへのリンクにする */}
-                  {/* <div className='app-name'> */}
+                  <div className='app-name-container'>
                     <Link className='
                       link-style
                       app-name
                     ' href={`/homemade/${app.id}`}>
                       {app.abbreviation}
                     </Link>                    
-                  {/* </div> */}
+                  </div>
 
                 </div>
               )

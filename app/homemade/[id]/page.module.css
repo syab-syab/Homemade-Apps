@@ -17,37 +17,16 @@
   margin: 0;
 }
 
-.useTech {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.techsContainer {
-  overflow: auto;
-  vertical-align: top;
-}
-
-.tech {
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
 /* ヘッダー部分のメディアクエリ */
 @media (max-width: 687px) {
   .appName {
     font-size: 5.7rem;
-  }
-  .useTech {
-    font-size: 2rem;
   }
 }
 
 @media (max-width: 587px) {
   .appName {
     font-size: 4rem;
-  }
-  .useTech {
-    font-size: 1.5rem;
   }
 }
 
@@ -70,15 +49,29 @@
   font-size: 2.5rem;
 }
 
+.videoSectionContainer {
+  /* border: dotted black; */
+  /* width: 100%; */
+}
+
 .videoSection {
-display: block;
+  /* display: block; */
+  /* border-top: dotted black;
+  border-bottom: dotted black;
+  width: auto; */
 }
 
 .appDescription {
   font-weight: bold;
 }
 
+.ynCOntainer {
+  /* display: flex; */
+  margin: auto;
+}
+
 .links {
+
   margin-bottom: 2rem;
 }
 
@@ -100,10 +93,18 @@ display: block;
 
 
 /* 無駄があるので後で整理する */
+.externalLinkContainer {
+  margin: 1rem;
+  border: dotted;
+  /* display: inline-block; */
+}
+
 .externalLink {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  border: 0.5rem dashed black;
-  margin: 1rem;
+  display: block;
+  /* width: 100%; */
+  border: dotted black;
+  /* margin: 1rem; */
 }

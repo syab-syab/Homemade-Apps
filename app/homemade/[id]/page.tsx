@@ -31,72 +31,65 @@ const page = ({ params }: { params: { id: number } }) => {
         <h1 className={styles.appName}>
           {appData.name}
         </h1>
-        <div className={styles.useTech}>
-          <p>
-            使用した技術...            
-          </p>
-          {/* 配列の要素をタグで囲う */}
-          {/* { appData.tech } */}
-          <div className={styles.techsContainer}>
-            {
-              techs.map(t => {
-                return (
-                  <div
-                    className={styles.tech}
-                    key={t}
-                    style={{
-                      marginRight: "1rem",
-                      border: "0.5rem dashed black"
-                    }}
-                    >
-                      {t}
-                    </div>
-                )
-              })
-            }            
-          </div>
-
-        </div>        
       </header>
 
       <main className={styles.main}>
-        <div className={styles.videoSection}>
-          <YouTubeEmbed
-            videoid={appData.movie}
-            params="controls=0"
-            style="
-            margin: 0 auto;
-            "
-          />
-        </div>
-        <div>
-          <p style={{ fontWeight: "bold" }}>
-            アプリを開きますか？
-          </p>
-          <div className={styles.links}>
-            <Link className={styles.externalLink} href={appData.url} target="_blank">
-              はい
-            </Link>
-            <Link className={styles.externalLink} href="/">
-              いいえ(TOPへ)
-            </Link>             
+        <div className={styles.videoSectionContainer}>
+          <div className={styles.videoSection}>
+            <YouTubeEmbed
+              videoid={appData.movie}
+              params="controls=0"
+              style="
+              margin: 0 auto;
+              border-style: double;
+              border-width: thick;
+              "
+            />
           </div>
-       
         </div>
+
         <div>
           <p className={styles.appDescription}>
             {/* 改行できないのをなんどかする */}
             {appData.description}
           </p>
-          <div className={styles.links}>
-            <Link className={styles.externalLink} href={appData.qiita} target="_blank">
-              Qiita
-            </Link>
-            <Link className={styles.externalLink} href={appData.zenn} target="_blank">
-              Zenn
-            </Link>
-          </div>          
+          {/* <div className={styles.links}>
+            <div className={styles.externalLinkContainer}>
+              <Link className={styles.externalLink} href={appData.qiita} target="_blank">
+                Qiita
+              </Link>              
+            </div>
+            <div className={styles.externalLinkContainer}>
+              <Link className={styles.externalLink} href={appData.zenn} target="_blank">
+                Zenn
+              </Link>
+            </div>
+          </div> */}
         </div>
+
+
+        <div>
+          <p style={{ fontWeight: "bold" }}>
+            アプリを開きますか？
+          </p>
+          <div  className={styles.ynCOntainer}>
+            <div className={styles.links}>
+              <div className={styles.externalLinkContainer}>
+                <Link className={styles.externalLink} href={appData.url} target="_blank">
+                  はい(外部リンクへ)
+                </Link>              
+              </div>
+              <div className={styles.externalLinkContainer}>
+                <Link className={styles.externalLink} href="/">
+                  いいえ(TOPへ)
+                </Link>              
+              </div>            
+          </div>
+          </div>
+        </div>
+
+        
+        
       </main>
 
       <Footer />
