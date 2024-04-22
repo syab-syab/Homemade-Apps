@@ -13,11 +13,17 @@ const appData: Array<appType> = data["app"]
 
 const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
 
+// メタデータを設定する
+
 export default function Home() {
   return (
     <>
       {/* ヘッダー */}
       <header className='sa-header'>
+        <div className='header-image'>
+          {/* 画像のリンクを外部リンクに頼らないようにする */}
+          <img src={ imgPath + "saa-image.png"} alt="image" />
+        </div>
         <h1 className="site-title">スイスアーミーアプリ</h1>
         <p className="sub-title">便利なツール系アプリ</p>
         <p className='sub-sub'>随時追加</p>

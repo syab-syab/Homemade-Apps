@@ -14,9 +14,20 @@ const page = ({ params }: { params: { id: number } }) => {
   // console.log(appData.description)
 
   // console.log(params.id)
+
+  //ページごとのメタデータを設定する
+  // 例) YEN$CONVERSION | スイスアーミーアプリ
+  // というタイトルになるようにする 
+
+  const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
+
   return (
     <>
       <header className={styles.header}>
+        <div className={styles.headerImage}>
+          {/* 画像のリンクを外部リンクに頼らないようにする */}
+          <img src={ imgPath + appData.image} alt="image" />
+        </div>
         <h1 className={styles.appName}>
           {appData.name}
         </h1>

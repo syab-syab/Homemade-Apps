@@ -133,6 +133,15 @@ body {
   margin-bottom: 2rem;
 }
 
+/* ヘッダーの画像 */
+.header-image {
+  height: 8rem;
+}
+
+.header-image > img {
+  height: 8rem;
+}
+
 /* ヘッダーのタイトル */
 .site-title {
   font-size: 6.7rem;
@@ -220,9 +229,8 @@ body {
 
 /* app-image直下のimgタグのheightをapp-barクラスの基準のheightにする */
 .app-image {
-  content: "";
+  /* content: ""; */
   border-right: black 0.5rem dashed;
-
   height: 6rem;
 }
 
@@ -235,8 +243,9 @@ body {
   text-align: center;
   /* float: right; */
   width: auto;
-  display: inline;
+  /* display: inline; */
   margin: auto;
+  display: block;
 }
 
 /* フッターのコピーライト */

@@ -3,6 +3,15 @@
   margin-bottom: 4rem;
 }
 
+/* ヘッダーの画像 */
+.headerImage {
+  height: 8rem;
+}
+
+.headerImage > img {
+  height: 8rem;
+}
+
 .appName {
   font-size: 6.7rem;
   margin: 0;
