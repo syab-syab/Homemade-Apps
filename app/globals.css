@@ -122,7 +122,7 @@ body {
 
   border: 0.5rem solid black;
   margin: 0;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 /* ページ全体のリンクのスタイル */
@@ -136,6 +136,7 @@ body {
 /* ヘッダー全体 */
 .sa-header {
   margin-bottom: 2rem;
+  border: solid white;
 }
 
 /* ヘッダーの画像 */
@@ -144,7 +145,11 @@ body {
 }
 
 .header-image > img {
+  border: solid black;
   height: 8rem;
+  box-shadow: 3px 5px black,
+  6px 8px black;
+  /* margin: 0; */
 }
 
 /* ヘッダーのタイトル */
@@ -198,6 +203,12 @@ body {
 }
 
 /* メインの部分 */
+.main-section {
+  /* background: black; */
+  border: solid white;
+  color: white;
+}
+
 .main-section, .footer {
   padding: 0 30rem 0;
 }
@@ -239,7 +250,7 @@ body {
 /* app-image直下のimgタグのheightをapp-barクラスの基準のheightにする */
 .app-image {
 
-  border: dotted black;
+  /* border: dotted black; */
 
   height: 6rem;
 }

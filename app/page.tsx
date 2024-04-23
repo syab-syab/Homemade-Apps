@@ -22,7 +22,7 @@ export default function Home() {
       <header className='sa-header'>
         <div className='header-image'>
           {/* 画像のリンクを外部リンクに頼らないようにする */}
-          <img src={ imgPath + "saa-image.png"} alt="image" />
+            <img src={ imgPath + "saa-image.png"} alt="image" />
         </div>
         <h1 className="site-title">スイスアーミーアプリ</h1>
         <p className="sub-title">便利なツール系アプリ</p>
@@ -51,7 +51,6 @@ export default function Home() {
                       {app.abbreviation}
                     </Link>                    
                   </div>
-
                 </div>
               )
             })

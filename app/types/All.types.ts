@@ -7,6 +7,4 @@ export type appType = {
   image: string,
   tech: Array<string>,
   movie: string,
-  qiita: string,
-  zenn: string
 }

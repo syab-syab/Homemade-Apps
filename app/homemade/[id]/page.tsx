@@ -21,6 +21,9 @@ const page = ({ params }: { params: { id: number } }) => {
 
   const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
 
+  const des: Array<string> = appData.description.split("\n")
+  console.log(des)
+
   return (
     <>
       <header className={styles.header}>
@@ -49,24 +52,16 @@ const page = ({ params }: { params: { id: number } }) => {
         </div>
 
         <div>
-          <p className={styles.appDescription}>
-            {/* 改行できないのをなんどかする */}
-            {appData.description}
-          </p>
-          {/* <div className={styles.links}>
-            <div className={styles.externalLinkContainer}>
-              <Link className={styles.externalLink} href={appData.qiita} target="_blank">
-                Qiita
-              </Link>              
-            </div>
-            <div className={styles.externalLinkContainer}>
-              <Link className={styles.externalLink} href={appData.zenn} target="_blank">
-                Zenn
-              </Link>
-            </div>
-          </div> */}
+          {
+            des.map(d => {
+              return (
+                <p className={styles.appDescription}>
+                {d}
+              </p>
+              )
+            })
+          }
         </div>
-
 
         <div>
           <p style={{ fontWeight: "bold" }}>

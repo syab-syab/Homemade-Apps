@@ -1,6 +1,7 @@
 /* ヘッダー部分 */
 .header {
   margin-bottom: 4rem;
+  border: solid white;
 }
 
 /* ヘッダーの画像 */
@@ -10,6 +11,9 @@
 
 .headerImage > img {
   height: 8rem;
+  border: solid black;
+  box-shadow: 3px 5px black,
+              6px 8px black;
 }
 
 .appName {
@@ -48,6 +52,7 @@
 .main {
   font-size: 2.5rem;
   padding: 0 30rem 0;
+  border: solid white;
 }
 
 .videoSectionContainer {
