@@ -9,9 +9,13 @@ const DotFonts = DotGothic16({
   preload: false,
 })
 
+// 本番環境url
+// const url = "https://homemade-apps.vercel.app/"
+
 export const metadata = {
   title: 'スイスアーミーアプリ',
   description: '自作のツール系アプリまとめ',
+
 }
 
 export default function RootLayout({

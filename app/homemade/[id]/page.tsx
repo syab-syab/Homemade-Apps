@@ -11,10 +11,6 @@ const page = ({ params }: { params: { id: number } }) => {
   const appData: appType | any = data["app"].find(d => d.id == params.id)
   const techs: Array<string> = appData.tech
 
-  // console.log(appData.description)
-
-  // console.log(params.id)
-
   //ページごとのメタデータを設定する
   // 例) YEN$CONVERSION | スイスアーミーアプリ
   // というタイトルになるようにする 
@@ -22,7 +18,6 @@ const page = ({ params }: { params: { id: number } }) => {
   const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
 
   const des: Array<string> = appData.description.split("\n")
-  console.log(des)
 
   return (
     <>
@@ -46,16 +41,17 @@ const page = ({ params }: { params: { id: number } }) => {
               margin: 0 auto;
               border-style: double;
               border-width: thick;
+              box-shadow: 3px 5px black, 6px 8px black;
               "
             />
           </div>
         </div>
 
-        <div>
+        <div className={styles.descriptionContainer}>
           {
             des.map(d => {
               return (
-                <p className={styles.appDescription}>
+                <p key={d} className={styles.appDescription}>
                 {d}
               </p>
               )
@@ -64,7 +60,7 @@ const page = ({ params }: { params: { id: number } }) => {
         </div>
 
         <div>
-          <p style={{ fontWeight: "bold" }}>
+          <p className={styles.ynQuestion}>
             アプリを開きますか？
           </p>
           <div  className={styles.ynCOntainer}>

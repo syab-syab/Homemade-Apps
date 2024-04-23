@@ -142,6 +142,7 @@ body {
 /* ヘッダーの画像 */
 .header-image {
   height: 8rem;
+  margin: 1rem auto 1rem;
 }
 
 .header-image > img {
@@ -198,7 +199,7 @@ body {
   }
 
   .sub-sub {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -294,12 +295,15 @@ body {
 .footer-external-link-container {
   border: dotted black;
   margin-bottom: 1rem;
+  /* font-size: 120%; */
 }
 
 .footer-external-link {
   border: dotted black;
   display: block;
   width: 100%;
+  font-size: 120%;
+  padding: 3%;
 }
 
 /* フッターのメディアクエリ */

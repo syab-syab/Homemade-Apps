@@ -7,6 +7,7 @@
 /* ヘッダーの画像 */
 .headerImage {
   height: 8rem;
+  margin: 1rem auto 1rem;
 }
 
 .headerImage > img {
@@ -67,18 +68,35 @@
   width: auto; */
 }
 
+/* アプリの説明部分 */
+.descriptionContainer {
+  text-align: left;
+  margin: 3rem auto 1rem;
+  font-size: 120%;
+  padding: 3%;
+  border: double 1rem;
+  border-radius: 1rem;
+}
+
 .appDescription {
   font-weight: bold;
+  /* text-align: center; */
+  margin: 0;
+}
+
+/* アプリを開きますか */
+.ynQuestion {
+  font-weight: bold;
+  font-size: 120%;
 }
 
 .ynCOntainer {
   /* display: flex; */
   margin: auto;
-
+  font-size: 120%;
 }
 
 .links {
-
   margin-bottom: 2rem;
 }
 
@@ -107,7 +125,7 @@
 
 /* 無駄があるので後で整理する */
 .externalLinkContainer {
-  margin: 1rem;
+  margin: 2rem;
   border: solid;
   /* display: inline-block; */
   box-shadow: 3px 5px black,
@@ -122,4 +140,5 @@
   /* width: 100%; */
   border: dotted black;
   /* margin: 1rem; */
+  padding: 3%;
 }
