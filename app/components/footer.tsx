@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="footer-links">
         <div className="footer-external-link-container">
           <Link
@@ -23,7 +23,7 @@ const footer = () => {
           </Link>          
         </div>
       </div>
-      <span style={{  fontSize: "2rem", "fontWeight": "bold" }}>©スイスアーミーアプリ</span>
+      <span style={{  fontSize: "2rem", "fontWeight": "bold" }}>©Swiss Army Apps</span>
     </footer>
   )
 }

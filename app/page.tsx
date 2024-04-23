@@ -26,7 +26,6 @@ export default function Home() {
         </div>
         <h1 className="site-title">スイスアーミーアプリ</h1>
         <p className="sub-title">便利なツール系アプリ</p>
-        <p className='sub-sub'>随時追加</p>
       </header>
       {/* メイン */}
       <main className="main">
@@ -58,7 +57,7 @@ export default function Home() {
             })
           }          
         </div>
-
+        <p className='sub-sub'>随時追加予定</p>
       </main>
       {/* フッター */}
       <Footer />

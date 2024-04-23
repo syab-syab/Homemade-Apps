@@ -47,6 +47,7 @@
 
 .main {
   font-size: 2.5rem;
+  padding: 0 30rem 0;
 }
 
 .videoSectionContainer {
@@ -68,6 +69,7 @@
 .ynCOntainer {
   /* display: flex; */
   margin: auto;
+
 }
 
 .links {
@@ -76,6 +78,12 @@
 }
 
 /* メイン部分のメディアクエリ */
+@media (max-width: 1286px) {
+  .main {
+    padding: 0 1rem 0;
+  }
+}
+
 @media (max-width: 687px) {
 
 }
@@ -95,8 +103,10 @@
 /* 無駄があるので後で整理する */
 .externalLinkContainer {
   margin: 1rem;
-  border: dotted;
+  border: solid;
   /* display: inline-block; */
+  box-shadow: 3px 5px black,
+              6px 8px black;
 }
 
 .externalLink {

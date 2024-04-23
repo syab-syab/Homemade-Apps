@@ -118,6 +118,11 @@ body {
   text-align: center;
   /* 一応全体の文字色を設定しておく */
   color: black;
+  cursor: alias;
+
+  border: 0.5rem solid black;
+  margin: 0;
+  padding-top: 1rem;
 }
 
 /* ページ全体のリンクのスタイル */
@@ -158,7 +163,7 @@ body {
 /* サブのサブ */
 .sub-sub {
   font-size: 2.5rem;
-  margin: 0;
+  margin-bottom: 2rem;
   font-weight: bold;
 }
 
@@ -193,14 +198,14 @@ body {
 }
 
 /* メインの部分 */
-.main-section {
+.main-section, .footer {
   padding: 0 30rem 0;
 }
 
 /* メインのメディアクエリ */
 
 @media (max-width: 1286px) {
-  .main-section {
+  .main-section, .footer {
     padding: 0 1rem 0;
   }
 }
@@ -223,10 +228,12 @@ body {
   height: 6rem;
   height: auto;
   
-  border: dotted black;
+  border: solid black;
 
   margin-bottom: 2rem;
   display: flex;
+  box-shadow: 3px 5px black,
+  6px 8px black;
 }
 
 /* app-image直下のimgタグのheightをapp-barクラスの基準のheightにする */
@@ -257,6 +264,9 @@ body {
   margin: auto;
   vertical-align: middle;
 }
+
+
+/* フッター部分 */
 
 /* フッターのコピーライト */
 .copy {
