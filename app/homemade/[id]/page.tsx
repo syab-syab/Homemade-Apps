@@ -3,6 +3,10 @@ import { appType } from "@/app/types//All.types"
 import Link from 'next/link';
 import { YouTubeEmbed } from '@next/third-parties/google'
 import styles from "@/app/homemade/[id]/page.module.css"
+import Header from "@/app/components/header"
+import Videosection from "@/app/components/videosection";
+import Yesnolinks from "@/app/components/yesnolinks";
+import Accountlinks from "@/app/components/accountlinks";
 import Footer from '@/app/components/footer'
 
 const page = ({ params }: { params: { id: number } }) => {
@@ -21,32 +25,14 @@ const page = ({ params }: { params: { id: number } }) => {
 
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.headerImage}>
-          {/* 画像のリンクを外部リンクに頼らないようにする */}
-          <img src={ imgPath + appData.image} alt="image" />
-        </div>
-        <h1 className={styles.appName}>
-          {appData.name}
-        </h1>
-      </header>
+      <Header
+        title={appData.name}
+        path={imgPath + appData.image}
+        subtitle=""
+      />
 
       <main className={styles.main}>
-        <div className={styles.videoSectionContainer}>
-          <div className={styles.videoSection}>
-            <YouTubeEmbed
-              videoid={appData.movie}
-              params="controls=0"
-              style="
-              margin: 0 auto;
-              border-style: double;
-              border-width: thick;
-              box-shadow: 3px 5px black, 6px 8px black;
-              "
-            />
-          </div>
-        </div>
-
+        <Videosection movie={appData.movie} />
         <div className={styles.descriptionContainer}>
           {
             des.map(d => {
@@ -63,25 +49,11 @@ const page = ({ params }: { params: { id: number } }) => {
           <p className={styles.ynQuestion}>
             アプリを開きますか？
           </p>
-          <div  className={styles.ynCOntainer}>
-            <div className={styles.links}>
-              <div className={styles.externalLinkContainer}>
-                <Link className={styles.externalLink} href={appData.url} target="_blank">
-                  はい(外部リンクへ)
-                </Link>              
-              </div>
-              <div className={styles.externalLinkContainer}>
-                <Link className={styles.externalLink} href="/">
-                  いいえ(TOPへ)
-                </Link>              
-              </div>            
-          </div>
-          </div>
+          <Yesnolinks url={appData.url} />
         </div>
-
-        
-        
       </main>
+
+      {/* <Accountlinks /> */}
 
       <Footer />
     </>

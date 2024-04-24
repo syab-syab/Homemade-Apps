@@ -1,9 +1,9 @@
 import Link from "next/link"
 
-const footer = () => {
+const Accountlinks = () => {
   return (
-    <footer className="footer">
-      {/* <div className="footer-links">
+    // 後で改めてスタイルを変更する
+       <div className="footer-links">
         <div className="footer-external-link-container">
           <Link
             className="footer-external-link link-style"
@@ -22,10 +22,8 @@ const footer = () => {
             Youtube
           </Link>          
         </div>
-      </div> */}
-      <span style={{  fontSize: "2rem", "fontWeight": "bold" }}>©Swiss Army Apps</span>
-    </footer>
+      </div> 
   )
 }
 
-export default footer
+export default Accountlinks

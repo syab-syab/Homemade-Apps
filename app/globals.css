@@ -108,6 +108,7 @@ a {
 
 html {
   font-size: 62.5%;
+  background-color: black;
 }
 
 *, *::before, *::after {
@@ -115,6 +116,7 @@ html {
 }
 
 body {
+  background-color: white;
   text-align: center;
   /* 一応全体の文字色を設定しておく */
   color: black;
@@ -279,6 +281,10 @@ body {
 
 
 /* フッター部分 */
+.footer {
+  background-color: black;
+  color: white;
+}
 
 /* フッターのコピーライト */
 .copy {
@@ -319,4 +325,35 @@ body {
   .footer-links {
     font-size: 1.5rem;
   }
+}
+
+
+/* page.module.cssからの移植 */
+.ynCOntainer {
+  /* display: flex; */
+  margin: auto;
+  font-size: 120%;
+}
+
+.links {
+  margin-bottom: 2rem;
+}
+
+.externalLinkContainer {
+  margin: 2rem;
+  border: solid;
+  /* display: inline-block; */
+  box-shadow: 3px 5px black,
+              6px 8px black;
+}
+
+.externalLink {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  /* width: 100%; */
+  border: dotted black;
+  /* margin: 1rem; */
+  padding: 3%;
 }

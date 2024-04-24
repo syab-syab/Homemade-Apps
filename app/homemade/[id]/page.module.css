@@ -1,52 +1,4 @@
-/* ヘッダー部分 */
-.header {
-  margin-bottom: 4rem;
-  border: solid white;
-}
-
-/* ヘッダーの画像 */
-.headerImage {
-  height: 8rem;
-  margin: 1rem auto 1rem;
-}
-
-.headerImage > img {
-  height: 8rem;
-  border: solid black;
-  box-shadow: 3px 5px black,
-              6px 8px black;
-}
-
-.appName {
-  font-size: 6.7rem;
-  margin: 0;
-}
-
-/* ヘッダー部分のメディアクエリ */
-@media (max-width: 687px) {
-  .appName {
-    font-size: 5.7rem;
-  }
-}
-
-@media (max-width: 587px) {
-  .appName {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 420px) {
-  .appName {
-    font-size: 3rem;
-  }
-  /* .sub-sub {
-    font-size: 1.5rem;
-  } */
-  .header {
-    margin-bottom: 2rem;
-  }
-}
-
+/* いずれglobal.cssと統合する */
 
 /* メイン部分 */
 
@@ -56,17 +8,6 @@
   border: solid white;
 }
 
-.videoSectionContainer {
-  /* border: dotted black; */
-  /* width: 100%; */
-}
-
-.videoSection {
-  /* display: block; */
-  /* border-top: dotted black;
-  border-bottom: dotted black;
-  width: auto; */
-}
 
 /* アプリの説明部分 */
 .descriptionContainer {
@@ -80,7 +21,6 @@
 
 .appDescription {
   font-weight: bold;
-  /* text-align: center; */
   margin: 0;
 }
 
@@ -90,15 +30,6 @@
   font-size: 120%;
 }
 
-.ynCOntainer {
-  /* display: flex; */
-  margin: auto;
-  font-size: 120%;
-}
-
-.links {
-  margin-bottom: 2rem;
-}
 
 /* メイン部分のメディアクエリ */
 @media (max-width: 1286px) {
@@ -121,24 +52,3 @@
   }
 }
 
-
-
-/* 無駄があるので後で整理する */
-.externalLinkContainer {
-  margin: 2rem;
-  border: solid;
-  /* display: inline-block; */
-  box-shadow: 3px 5px black,
-              6px 8px black;
-}
-
-.externalLink {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  display: block;
-  /* width: 100%; */
-  border: dotted black;
-  /* margin: 1rem; */
-  padding: 3%;
-}
