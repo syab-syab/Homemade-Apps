@@ -20,7 +20,7 @@ export default function Home() {
       <Header
         title="スイスアーミーアプリ"
         path={imgPath + "saa-image.png"}
-        subtitle="便利なツール系アプリ"
+        subtitle="便利なツール系アプリまとめ"
       />
       {/* メイン */}
       <main className="main">
