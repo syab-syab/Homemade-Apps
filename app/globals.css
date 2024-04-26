@@ -120,8 +120,6 @@ body {
   text-align: center;
   /* 一応全体の文字色を設定しておく */
   color: black;
-  cursor: alias;
-
   border: 0.5rem solid black;
   margin: 0;
   /* padding-top: 1rem; */
