@@ -1,6 +1,7 @@
 import './globals.css'
 // import { Inter } from 'next/font/google'
 import { DotGothic16 } from 'next/font/google'
+import Favicon from '@/public/favicon.ico'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +16,7 @@ const DotFonts = DotGothic16({
 export const metadata = {
   title: 'スイスアーミーアプリ',
   description: '自作のツール系アプリまとめ',
-
+  icons: [{ rel: 'icon', url: Favicon.src }],
 }
 
 export default function RootLayout({
