@@ -3,7 +3,7 @@
     {
       "id": 5,
       "name": "YEN$CONVERSION",
-      "abbreviation": "YEN$CONVERSION",
+      "abbreviation": "円→外貨",
       "description": "日本円での値段をドルなどの外貨に直したらいくらになるのかを計算できます。\n為替相場は毎日更新。",
       "url": "https://unique-sprinkles-003d9b.netlify.app/",
       "image": "yen-dollar.png",
@@ -13,7 +13,7 @@
     {
       "id": 4,
       "name": "Tasks Maketh Man",
-      "abbreviation": "Tasks Maketh Man",
+      "abbreviation": "ToDoリスト",
       "description": "シンプルなToDoリストです。\n期限を設定できます。",
       "url": "https://marvelous-druid-da3e8a.netlify.app/",
       "image": "tmk-list.png",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Diatonic Cheat",
-      "abbreviation": "Diatonic Cheat",
+      "abbreviation": "ダイアトニック",
       "description": "音楽をやっている人向けのアプリです。\n好きなキーのダイアトニックコードを表示できます。",
       "url": "https://syab-syab.github.io/diatonicReact/",
       "image": "diatonic-cheat.png",
@@ -33,7 +33,7 @@
     {
       "id": 2,
       "name": "Event Schedule Image Generator",
-      "abbreviation": "ESIG",
+      "abbreviation": "共有用の予定画像作成",
       "description": "予定の詳細をSNSやチャットアプリで共有しやすい画像を作ります。\n遊び・仕事・イベント告知などで使ってください。",
       "url": "https://syab-syab.github.io/reactImageMaker/",
       "image": "esig.png",
@@ -43,7 +43,7 @@
     {
       "id": 1,
       "name": "オノまとめ",
-      "abbreviation": "オノまとめ",
+      "abbreviation": "効果音ボタン",
       "description": "様々な効果音を鳴らすことができます。\n悪用厳禁。",
       "url": "https://syab-syab.github.io/reactSoundEffectBtn/",
       "image": "onomatome.png",
