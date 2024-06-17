@@ -1,6 +1,16 @@
 {
   "app": [
     {
+      "id": 7,
+      "name": "世界忍耐時計",
+      "abbreviation": "禁欲時計",
+      "description": "禁欲の手助けになるWebアプリです。\n耐え忍んだ時間をカウントできます。",
+      "url": "https://patientday-clock.netlify.app/",
+      "image": "p-clock.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "EUWN0ns8I4Q"
+    },
+    {
       "id": 6,
       "name": "YEN$CONVERSION",
       "abbreviation": "円→外貨",
