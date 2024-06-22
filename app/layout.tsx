@@ -3,6 +3,7 @@ import './globals.css'
 import { DotGothic16 } from 'next/font/google'
 import Favicon from '@/public/favicon.ico'
 import Ogp from '@/public/swissArmyOgp.png'
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -38,6 +39,7 @@ export const metadata = {
   },
 }
 
+
 export default function RootLayout({
   children,
 }: {
@@ -46,6 +48,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={DotFonts.className}>{children}</body>
+      <GoogleAnalytics gaId={process.env.NEXT_APP_GOOGLE_ANALYTICS_PASS ?? ""} />
     </html>
   )
 }
