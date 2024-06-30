@@ -1,6 +1,36 @@
 {
   "app": [
     {
+      "id": 10,
+      "name": "カウントダウナー",
+      "abbreviation": "カウントダウン",
+      "description": "シンプルなカウントダウンタイマー。\n音を鳴らしてカウントできます。",
+      "url": "https://syab-syab.github.io/countdowner/",
+      "image": "countdowner.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "tIL0RU61aMU"
+    },
+    {
+      "id": 9,
+      "name": "ワードカウンター",
+      "abbreviation": "字数カウント",
+      "description": "字数を数えることができます。\n文章を貼り付けて字数を数えることも可能です。",
+      "url": "https://syab-syab.github.io/word-counter/",
+      "image": "word-counter.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "tIL0RU61aMU"
+    },
+    {
+      "id": 8,
+      "name": "TDNカウンター",
+      "abbreviation": "カウント",
+      "description": "シンプルなカウンターです。\n数を数えるときに役立ててください。",
+      "url": "https://syab-syab.github.io/tdn-counter/",
+      "image": "tdn-counter.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "tIL0RU61aMU"
+    },
+    {
       "id": 7,
       "name": "世界忍耐時計",
       "abbreviation": "禁欲時計",
