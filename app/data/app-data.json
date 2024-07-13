@@ -1,9 +1,19 @@
 {
   "app": [
     {
+      "id": 11,
+      "name": "Private Word Stock",
+      "abbreviation": "コピペ倉庫",
+      "description": "コピペしたい言葉をストックしておけます。\nCSVファイルでダウンロードできます。",
+      "url": "https://syab-syab.github.io/countdowner/",
+      "image": "p-word-stock.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "YgWE9vWaTv0"
+    },
+    {
       "id": 10,
       "name": "カウントダウナー",
-      "abbreviation": "カウントダウン",
+      "abbreviation": "タイマー",
       "description": "シンプルなカウントダウンタイマー。\n音を鳴らしてカウントできます。",
       "url": "https://syab-syab.github.io/countdowner/",
       "image": "countdowner.png",
@@ -73,7 +83,7 @@
     {
       "id": 3,
       "name": "Event Schedule Image Generator",
-      "abbreviation": "共有用の予定画像作成",
+      "abbreviation": "予定画像作成",
       "description": "予定の詳細をSNSやチャットアプリで共有しやすい画像を作ります。\n遊び・仕事・イベント告知などで使ってください。",
       "url": "https://syab-syab.github.io/reactImageMaker/",
       "image": "esig.png",
