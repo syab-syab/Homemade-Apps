@@ -5,7 +5,7 @@
       "name": "Private Word Stock",
       "abbreviation": "コピペ倉庫",
       "description": "コピペしたい言葉をストックしておけます。\nCSVファイルでダウンロードできます。",
-      "url": "https://syab-syab.github.io/countdowner/",
+      "url": "https://private-word-stock.netlify.app/",
       "image": "p-word-stock.png",
       "tech": ["React.js", "TypeScript"],
       "movie": "YgWE9vWaTv0"
