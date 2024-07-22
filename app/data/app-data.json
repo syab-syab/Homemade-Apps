@@ -1,6 +1,26 @@
 {
   "app": [
     {
+      "id": 13,
+      "name": "ワードリバース",
+      "abbreviation": "逆さことば",
+      "description": "入力した文を逆さにできます。",
+      "url": "https://syab-syab.github.io/reverse-word/",
+      "image": "word-reverse.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "YgWE9vWaTv0"
+    },
+    {
+      "id": 12,
+      "name": "DATEジェネレーター",
+      "abbreviation": "日付生成",
+      "description": "日付のテキストを生成できます。\n日本式の年月日はもちろん、海外式の月日年・日月年にも対応しています。",
+      "url": "https://syab-syab.github.io/date-generator/",
+      "image": "date-generator.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "LQsgIgMuoDA"
+    },
+    {
       "id": 11,
       "name": "Private Word Stock",
       "abbreviation": "コピペ倉庫",
