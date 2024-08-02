@@ -1,6 +1,26 @@
 {
   "app": [
     {
+      "id": 17,
+      "name": "重さ変換",
+      "abbreviation": "重さ変換",
+      "description": "重さの数値を別の単位へ変換できます。",
+      "url": "https://syab-syab.github.io/weight-conversion/",
+      "image": "weight-conversion.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "UM_VyOAoBho"
+    },
+    {
+      "id": 16,
+      "name": "長さ変換",
+      "abbreviation": "長さ変換",
+      "description": "長さの数値を別の単位へ変換できます。",
+      "url": "https://syab-syab.github.io/length-conversion/",
+      "image": "length-conversion.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "UM_VyOAoBho"
+    },
+    {
       "id": 15,
       "name": "箇条書き画像化",
       "abbreviation": "箇条書画像",
