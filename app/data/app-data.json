@@ -1,6 +1,26 @@
 {
   "app": [
     {
+      "id": 19,
+      "name": "運命のコイントス",
+      "abbreviation": "コイントス",
+      "description": "サイコロを振れます。ゲームやギャンブルでお使いください。",
+      "url": "コイントスができます。ゲームやスポーツ等でお使いください。",
+      "image": "coin-toss.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "cedEoYo4rls"
+    },
+    {
+      "id": 18,
+      "name": "運命のダイスロール",
+      "abbreviation": "サイコロ",
+      "description": "サイコロを振れます。ゲームやギャンブルでお使いください。",
+      "url": "https://syab-syab.github.io/dice-roll/",
+      "image": "dice-roll.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "cedEoYo4rls"
+    },
+    {
       "id": 17,
       "name": "重さ変換",
       "abbreviation": "重さ変換",
