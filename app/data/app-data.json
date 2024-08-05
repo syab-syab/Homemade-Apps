@@ -4,8 +4,8 @@
       "id": 19,
       "name": "運命のコイントス",
       "abbreviation": "コイントス",
-      "description": "サイコロを振れます。ゲームやギャンブルでお使いください。",
-      "url": "コイントスができます。ゲームやスポーツ等でお使いください。",
+      "description": "コイントスができます。ゲームやスポーツ等でお使いください。",
+      "url": "https://syab-syab.github.io/coin-toss/",
       "image": "coin-toss.png",
       "tech": ["React.js", "TypeScript"],
       "movie": "cedEoYo4rls"
