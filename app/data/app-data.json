@@ -1,6 +1,16 @@
 {
   "app": [
     {
+      "id": 20,
+      "name": "Routine Checker",
+      "abbreviation": "ルーティン",
+      "description": "毎日のルーティーン管理に使えるチェックリストです。リセットする時間は自分で決められます。",
+      "url": "https://routine-checker.netlify.app/",
+      "image": "routine-checker.png",
+      "tech": ["React.js", "TypeScript"],
+      "movie": "u5Fgy9neRoU"
+    },
+    {
       "id": 19,
       "name": "運命のコイントス",
       "abbreviation": "コイントス",
