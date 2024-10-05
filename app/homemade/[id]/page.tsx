@@ -9,11 +9,14 @@ import Yesnolinks from "@/app/components/yesnolinks";
 import Accountlinks from "@/app/components/accountlinks";
 import Footer from '@/app/components/footer'
 
+// スタイルはstyled-componentsを使う
+
 const page = ({ params }: { params: { id: number } }) => {
   // anyを型にするのはよくない感じがするから
   // if文とかで分岐させてデフォルトで返すappTypeのデータを用意しておく
   const appData: appType | any = data["app"].find(d => d.id == params.id)
-  const techs: Array<string> = appData.tech
+  // techsはもう要らない
+  // const techs: Array<string> = appData.tech
 
   //ページごとのメタデータを設定する
   // 例) YEN$CONVERSION | スイスアーミーアプリ
@@ -21,6 +24,7 @@ const page = ({ params }: { params: { id: number } }) => {
 
   const imgPath = 'https://raw.githubusercontent.com/syab-syab/Homemade-Apps/main/app/img/'
 
+  // des=description
   const des: Array<string> = appData.description.split("\n")
 
   return (

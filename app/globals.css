@@ -173,6 +173,7 @@ body {
   font-weight: bold;
 }
 
+
 /* ヘッダーの各メディアクエリ */
 /* font-sizeはパーセントで設定した方がいいかも */
 @media (max-width: 687px) {
@@ -207,7 +208,7 @@ body {
 .main-section {
   /* background: black; */
   border: solid white;
-  color: white;
+  /* color: white; */
 }
 
 .main-section, .footer {
@@ -277,6 +278,28 @@ body {
   vertical-align: middle;
 }
 
+/* 最新アプリの表示 */
+.latest-app {
+  margin-bottom: 4rem;
+}
+
+.new-mark {
+  color: #ffb800;
+  font-size: 5rem;
+}
+
+/* ページネーション */
+.pagination {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.pagination-nonactive {
+  color: gray;
+}
 
 /* フッター部分 */
 .footer {
