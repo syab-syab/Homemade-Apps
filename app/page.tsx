@@ -5,6 +5,7 @@ import Applink from './components/applink';
 import Accountlinks from './components/accountlinks';
 import Footer from '@/app/components/footer'
 import Pagination from './components/pagination';
+import QrWrapper from './components/qrwrapper'
 
 // トップページ
 
@@ -47,6 +48,8 @@ export default function Home() {
         <p className='sub-sub'>随時追加予定</p>
         {/* <Accountlinks /> */}
       </main>
+
+      <QrWrapper path="https://raw.githubusercontent.com/syab-syab/Homemade-Apps/refs/heads/main/app/img/qr-code-swapp.png" />
       
       {/* フッター */}
       <Footer />

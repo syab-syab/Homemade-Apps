@@ -301,6 +301,22 @@ body {
   color: gray;
 }
 
+
+/* QRコード部分 */
+/* ヘッダーの画像 */
+.qr-image {
+  height: 20rem;
+  margin: 1rem auto 1rem;
+}
+
+.qr-image > img {
+  border: solid black;
+  height: 20rem;
+  /* box-shadow: 3px 5px black,
+  6px 8px black; */
+  /* margin: 0; */
+}
+
 /* フッター部分 */
 .footer {
   background-color: black;
