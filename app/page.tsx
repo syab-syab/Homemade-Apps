@@ -6,6 +6,7 @@ import Accountlinks from './components/accountlinks';
 import Footer from '@/app/components/footer'
 import Pagination from './components/pagination';
 import QrWrapper from './components/qrwrapper'
+import Privacypolicylink from './components/privacypolicylink';
 
 // トップページ
 
@@ -50,7 +51,10 @@ export default function Home() {
       </main>
 
       <QrWrapper path="https://raw.githubusercontent.com/syab-syab/Homemade-Apps/refs/heads/main/app/img/qr-code-swapp.png" />
-      
+
+      {/* プライバシーポリシーリンク */}
+      <Privacypolicylink />
+
       {/* フッター */}
       <Footer />
     </>

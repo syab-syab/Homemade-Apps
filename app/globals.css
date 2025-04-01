@@ -317,6 +317,14 @@ body {
   /* margin: 0; */
 }
 
+
+/* プライバシーポリシーのリンク部分 */
+.pp-link {
+  color: black;
+  /* text-decoration: none; */
+  font-weight: bold;
+}
+
 /* フッター部分 */
 .footer {
   background-color: black;
