@@ -4,6 +4,7 @@ import { DotGothic16 } from 'next/font/google'
 import Favicon from '@/public/favicon.ico'
 import Ogp from '@/public/swissArmyOgp.png'
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from 'next/script';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -47,6 +48,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID}`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={DotFonts.className}>{children}</body>
       <GoogleAnalytics gaId={process.env.NEXT_APP_GOOGLE_ANALYTICS_PASS ?? ""} />
     </html>
