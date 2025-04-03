@@ -14,10 +14,12 @@ const DotFonts = DotGothic16({
 })
 
 const title: string = 'スイスアーミーアプリ'
-const description: string = '自作のツール系アプリまとめ'
+const description: string = 'ツール系アプリまとめ'
 
 // 本番環境url
 const url: string = "https://homemade-apps.vercel.app/"
+
+{/* <meta name="google-adsense-account" content="ca-pub-3593535148836855"> */}
 
 export const metadata = {
   title: title,
@@ -55,6 +57,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID}></meta>
       </head>
       <body className={DotFonts.className}>{children}</body>
       <GoogleAnalytics gaId={process.env.NEXT_APP_GOOGLE_ANALYTICS_PASS ?? ""} />
