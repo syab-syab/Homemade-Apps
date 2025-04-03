@@ -19,7 +19,6 @@ const description: string = 'ツール系アプリまとめ'
 // 本番環境url
 const url: string = "https://homemade-apps.vercel.app/"
 
-{/* <meta name="google-adsense-account" content="ca-pub-3593535148836855"> */}
 
 export const metadata = {
   title: title,
