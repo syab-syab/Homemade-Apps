@@ -205,6 +205,16 @@
       "image": "routine-checker.png",
       "tech": ["React.js", "TypeScript"],
       "movie": "u5Fgy9neRoU"
+    },
+    {
+      "id": 21,
+      "name": "Private Word Stock拡張機能版",
+      "abbreviation": "拡張機能版PWS",
+      "description": "Private Word Stockの拡張機能版。\nWebページ上の文をストックすることができます。",
+      "url": "https://chromewebstore.google.com/detail/private-word-stock/pioabmjlfodcedemblfmbciljokhdmgf?authuser=0&hl=ja&pli=1",
+      "image": "pws-ex.png",
+      "tech": ["Plasmo"],
+      "movie": "YgWE9vWaTv0"
     }
   ]
 }

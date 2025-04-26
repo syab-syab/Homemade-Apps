@@ -56,7 +56,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         /> */}
-        <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID}></meta>
+        {/* <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID}></meta> */}
       </head>
       <body className={DotFonts.className}>{children}</body>
       <GoogleAnalytics gaId={process.env.NEXT_APP_GOOGLE_ANALYTICS_PASS ?? ""} />
