@@ -281,6 +281,7 @@ body {
 /* 最新アプリの表示 */
 .latest-app {
   margin-bottom: 4rem;
+  background: #ffb80040;
 }
 
 .new-mark {
