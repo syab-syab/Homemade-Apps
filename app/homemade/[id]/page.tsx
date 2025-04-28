@@ -48,13 +48,21 @@ const page = ({ params }: { params: { id: number } }) => {
             })
           }
         </div>
-
+          {/* 広告 */}
+          <a href="https://px.a8.net/svt/ejp?a8mat=453JBO+DAOJ5E+2Z0I+OCEXD" rel="nofollow">
+            <img width="350" height="80" alt="" src="https://www22.a8.net/svt/bgt?aid=250427796804&wid=001&eno=01&mid=s00000013869004089000&mc=1" />
+            </a>
+          <img width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=453JBO+DAOJ5E+2Z0I+OCEXD" alt="" />
         <div>
           <p className={styles.ynQuestion}>
             アプリを開きますか？
           </p>
           <Yesnolinks url={appData.url} />
         </div>
+      {/* 広告 */}
+      <a href="https://px.a8.net/svt/ejp?a8mat=453K3M+53DJ3M+5LNQ+5YJRM" rel="nofollow">メルカリ</a>
+      <img width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=453K3M+53DJ3M+5LNQ+5YJRM" alt=""></img>
+      
       </main>
 
       {/* <Accountlinks /> */}
