@@ -215,6 +215,16 @@
       "image": "pws-ex.png",
       "tech": ["Plasmo"],
       "movie": "x9tWCX9ySC4"
+    },
+    {
+      "id": 22,
+      "name": "Font Changer",
+      "abbreviation": "文字スタイル変更",
+      "description": "Webページのフォント(文字)のスタイルを自分の好きなようにカスタマイズできる拡張機能版です。",
+      "url": "https://chromewebstore.google.com/detail/font-changer/cpegilhncgjebpgignlaejjiigclmabm?authuser=0&hl=ja",
+      "image": "font-changer.png",
+      "tech": ["Plasmo"],
+      "movie": "-_2bH6-DPeQ"
     }
   ]
 }
