@@ -220,11 +220,21 @@
       "id": 22,
       "name": "Font Changer",
       "abbreviation": "文字スタイル変更",
-      "description": "Webページのフォント(文字)のスタイルを自分の好きなようにカスタマイズできる拡張機能版です。",
+      "description": "Webページのフォント(文字)のスタイルを自分の好きなようにカスタマイズできる拡張機能です。",
       "url": "https://chromewebstore.google.com/detail/font-changer/cpegilhncgjebpgignlaejjiigclmabm?authuser=0&hl=ja",
       "image": "font-changer.png",
       "tech": ["Plasmo"],
       "movie": "-_2bH6-DPeQ"
+    },
+    {
+      "id": 23,
+      "name": "Anchor-Editor",
+      "abbreviation": "aタグ編集",
+      "description": "Webページ上のaタグをマーキングしたり、属性を変更したりすることができる拡張機能です。",
+      "url": "https://chromewebstore.google.com/detail/anchor-editor/hajofcojcohclgahojpjnkjplabpjjcg?authuser=0&hl=ja",
+      "image": "anchor-editor.png",
+      "tech": ["Plasmo"],
+      "movie": "llCGs0m88qk"
     }
   ]
 }
